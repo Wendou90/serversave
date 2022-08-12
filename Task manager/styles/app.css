@@ -1,0 +1,82 @@
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    
+
+}
+
+h1 {
+    background-color: green;
+    text-align: center;
+    padding: 7px 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+.main-container {
+    display: flex;
+    height: calc(100% - 52);
+}
+.sec-tasks {
+    flex: 3;
+    border: 1px solid;
+    border-radius: 6px;
+    text-align: center;
+}
+.sec-forms {
+    flex: 2;
+    border: 1px solid;
+    border-radius: 6px;
+    text-align: center;
+}
+.my-control {
+    display: block;
+    margin-bottom: 7px;
+
+}
+.my-control label {
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+    margin-right: 5px;
+}
+.my-control input,
+.my-control select
+.my-control textarea {
+    display: inline-block;
+    width: auto;
+    padding: 5px 10px;
+    width: auto;
+}
+#iImportant {
+    font-size: 32px;
+    color: black;
+    cursor: pointer;
+}
+#iImportant:hover {
+    padding-left: 3px;
+
+}
+.save-button {
+    background-color: blue;
+}
+.task {
+    display: flex;
+    border: 2px solid;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: grey;
+}
+.task i {
+    flex: 1;
+    font-size: 30px;
+}
+.task .info {
+    flex: 6;
+}
+.task label {
+    flex: 1;
+}
